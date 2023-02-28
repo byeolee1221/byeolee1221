@@ -1,4 +1,8 @@
-### Hi there 👋
+## 안녕하세요! 👋
+
+### 웹개발자 준비중인 byeolee입니다. 😀
+
+### ✨ Contact: zicsso1221@gmail.com
 
 <!--
 **byeolee1221/byeolee1221** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
