@@ -1,3 +1,16 @@
-h1, h2, h3, h4, h5, h6 {
-    color: hsl(240, 100%, 50%);
+* {
+    background-color: #a9927d;
 }
+
+p {
+    font-family: 'Malgun Gothic';
+    text-align: center;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+/* CSS 코드는 선택자와 중괄호로 구성되는데, 여기서 선택자란 CSS 규칙이 적용되는 요소를 정의하는 CSS 규칙의 일부를 말한다. */
+/* *과 p태그는 선택자가 된다. 참고로 *은 문서 전체에 css 코드를 적용할 때 쓰는 방식이다. */
