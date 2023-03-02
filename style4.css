@@ -1,0 +1,27 @@
+* {
+    background-color: #c9ada7;
+    margin-top: 0;
+}
+
+h1 {
+    color: #f2e9e4;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+
+/* h1 태그에 가상 선택자 중 하나인 hover를 사용하면 웹페이지에서 h1 태그 부분에 마우스를 갖다 댔을 때 밑줄이 나오게 된다. 그 외에는 밑줄이 없는 상태이다. */
+
+.title {
+    background-color: #22223b;
+}
+
+#goal {
+    font-weight: bold;
+    font-size: 20px;
+    /* px은 치수를 설정할 수 있는 '절대 단위'이다. 절대 단위이기 때문에 웹사이트 내부에서 임의로 크기가 커지거나 작아지지 않는다. 또한, px은 장치의 영향(컴퓨터나 아이패드냐 핸드폰이냐 등)은 받지만, 화면 너비 등과 같은 요소에는 아무런 영향을 받지 않는다. 그래서 font-size 속성 같은 경우는 크기 단위로 px을 써주는 것이 좋다. */
+}
+
+/* HTML의 id 속성값과 class 속성값에 CSS 코드를 쓰고 싶을 때에는? */
+/* id 속성값일 때는 #을 붙여주고, class 속성값일 경우에는 .을 붙여주면 된다. */
