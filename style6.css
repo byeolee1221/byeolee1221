@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    text-align: center;
+    background-color: #c9ada7;
+}
+
+.title {
+    color: #f2e9e4;
+}
+
+li {
+    list-style: none;
+    font-weight: 700;
+    font-size: 20px;
+}
