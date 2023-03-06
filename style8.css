@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    list-style: none;
+}
+
+body {
+    background-color: #6c584c;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+img {
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-top: -80px;
+}
+
+.container {
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 800px;
+    margin: 100px auto 20px auto;
+    background-color: #a98467;
+    box-shadow: 10px 5px 10px;
+}
+
+/* box-shadow 속성은 테두리 주변에 그림자를 추가하는 속성이다. 
+값은 x축, y축, 그림자의 흐린정도, 그림자 색상 이 네 가지 값으로 구성되어 있다. */
+
+h2, h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.list {
+    color: #dde5b6;
+    margin-bottom: 10px;
+}
+
+/* HTML문서의 id 속성을 선택자로 적으면 이 id가 있는 특정 요소에만 스타일을 적용하게 된다. */
+/* class 속성을 선택자로 적으면 해당 class가 있는 모든 HTML문서의 요소에 스타일을 적용하게 된다. */
+
+a {
+    color: #dde5b6;
+    text-decoration: none;
+    border: 3px solid #f0ead2;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #a98467;
+}
+
+/* 인라인 요소는 위아래 여백이나 패딩에 제한이 있다. 그 제한이란, 인라인 요소에서는 수직 여백을 적용할 수 없는 제한이다. */
+/* 그래서 display 속성을 통해 inline-block으로 설정해주었다. 동시에 여백겹침 문제도 사라졌다. */
+
+a:hover {
+    background-color: #f95738;
+    box-shadow: 3px 3px 10px;
+}
