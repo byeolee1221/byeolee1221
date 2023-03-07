@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Basics Summary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main_title">
+        <h1 class="title">HTML & CSS Basics Summary</h1>
+        <img src="html-css.png" alt="image">
+    </header>
+    <main class="main_contents">
+        <div class="container">
+            <h2 class="sub_title">HTML Summary</h2>
+            <p>HTML (Hypertext Markup Language) is used to define our page content, structure and meaning.
+            You <span>don't</span> use it for styling purposes. Use CSS for that instead!
+            </p>
+            <ul class="contents_list"> 
+                <li class="extra_important">HTML uses "elements" to describe (annotate) content</li>
+                <li class="list">HTML elements typically have an opening tag, content and then a closing tag</li>
+                <li class="extra_important">You can also have void (empty) elements like images</li>
+                <li class="extra_important">You can also configure elements with attributes</li>
+                <li class="list">There's a long list of available elements but you'll gain experience over time, no worries.</li>
+            </ul>
+            <p>Learn more about all available HTML elements on <a class="link" href="https://developer.mozilla.org/en-US/docs/Web/HTML">the MDN HTML element reference</a>.</p>
+
+            <h2 class="sub_title">CSS Summary</h2>
+            <p>CSS (Cascading Style Sheets) is used for styling your page content.</p>
+            <ul class="contents_list">
+                <li class="list">Styles are assigned via property-value pairs.</li>
+                <li class="list">You can assign styles via the "style" attribute</li>
+                <li class="extra_important">You avoid code duplication, you typically use global styles (e.g. via the "style" element) instead</li>
+                <li class="list">Alternatively, you can work with external stylesheet files which you "link" to</li>
+                <li class="extra_important">When working with CSS, concepts like "inheritance", "Specificity" and the "box model" should be understood.</li>
+            </ul>
+            <p>Learn more about all available CSS properties and values on <a class="link" href="https://developer.mozilla.org/en-US/docs/Web/CSS">the MDN CSS property reference</a>.</p>
+        </div>
+    </main>
+    <footer class="reference_contents">
+        <div class="file_link">
+            <a href="html-css-basics-summary.pdf" target="_blank">Download PDF Summary</a>
+        </div>
+        <div class="company_name">
+            <p id="name">(c) Dominic. Mun</p>
+        </div>
+    </footer>
+</body>
+</html>
