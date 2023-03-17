@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+    color: rgb(68, 68, 68);
+}
+
+.header.section {
+    position: static;
+}
+
+#page_logo a, .nav_link {
+    color: rgb(227, 255, 253);
+}
+
+.nav_link:hover {
+    background-color: #c7fff8;
+}
+
+.city, .city_long_pic {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 600px 600px;
+}
+
+.main_items .city_img {
+    display: flex;
+    margin: auto 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.city_img img {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.city_info {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    padding: 0 20px;
+}
+
+.city_long_pic {
+    display: flex;
+}
+
+.city_long_pic .city_info {
+    width: 820px;
+}
+
+.city_info h2 {
+    text-align: left;
+}
+
+.actions {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.actions a {
+    color: #11d6d0;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.actions a:hover {
+    background-color: #c7fff8;
+}
