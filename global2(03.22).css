@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&family=Raleway:wght@700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+.header.section {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+}
+
+#page_logo a {
+    padding: 10px;
+    font-family: 'Oleo Script', sans-serif;
+    color: rgb(245, 243, 160);
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.nav_link {
+    text-decoration: none;
+    padding: 12px;
+    color: rgb(255, 251, 0);
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    transition: background-color 0.1s ease-out;
+}
+
+.nav_link:hover {
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);
+}
+
+.main_bottom {
+    background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+    padding: 10px 0;
+}
+
+footer li {
+    width: 80px;
+    height: 80px;
+}
+
+footer img {
+    width: 100%;
+    height: 100%;
+}
+
+.social {
+    align-items: center;
+    justify-content: center;
+}
+
+.social_link {
+    margin: auto 50px;
+}
