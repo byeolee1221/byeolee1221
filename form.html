@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/수업/폼 만들기/form.css">
+</head>
+<body>
+    <form action="/" method="GET">
+        <label for="user_name">Your name</label>
+        <input type="text" name="user" id="user_name">
+        <label for="user_email">Your E-mail</label>
+        <input type="email" name="email" id="user_email">
+        <label for="user_age">Your age</label>
+        <input type="number" step="2" name="age" id="user_age">
+        <label for="user_password">Your password</label>
+        <input type="password" name="password" id="user_password">
+        <label for="user_birthDate">Your Birthdate</label>
+        <input type="date" name="birthDate" id="user_birthDate">
+        <hr>
+        <h2>How should we verify your account?</h2>
+        <div class="some_box">
+            <input type="radio" name="verify_select" id="verify_SMS" value="SMS">
+            <label for="verify_SMS">SMS</label>
+        </div>
+        <div class="some_box">
+            <input type="radio" name="verify_select" id="verify_phoneCall" value="phone">
+            <label for="verify_phoneCall">Phone call</label>
+        </div>
+        <div class="some_box">
+            <input type="radio" name="verify_select" id="verify_email" value="email">
+            <label for="verify_email">E-mail</label>
+        </div>
+        <h2>Do you agree with the privacy policy?</h2>
+        <div class="agree_box">
+            <label for="user_agree">YES
+            <input type="checkbox" name="agree" id="user_agree"></label>
+            <label for="user_agree2">NO
+            <input type="checkbox" name="agree" id="user_agree2"></label>
+        </div>
+        <label for="user_file">Give the file</label>
+        <input type="file" name="file" id="user_file">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
