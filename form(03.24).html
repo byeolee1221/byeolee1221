@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/수업/폼 만들기/form.css">
+</head>
+<body>
+    <header class="header_section">
+        <h1 class="title">Demo Form</h1>
+    </header>
+    <main class="main_section">
+        <form action="/" method="GET">
+            <section class="personal_info">
+                <div class="important_info">
+                    <h2 class="sub_title">Your Personal Information</h2>
+                    <label for="user_name">Your name</label>
+                    <input type="text" name="user" id="user_name" required>
+    
+                    <label for="user_password">Your password</label>
+                    <input type="password" name="password" id="user_password" minlength="8" required>
+    
+                    <label for="user_email">Your E-mail</label>
+                    <input type="email" name="email" id="user_email" placeholder="abc@naver.com" required> 
+                </div>
+            </section>
+            <section class="sub_info">
+                <div class="sub">
+                    <h2 class="sub_title">Your Optional Information</h2>
+                    <label for="user_age">Your age</label>
+                    <input type="number" step="1" name="age" id="user_age" min="18" required>
+
+                    <label for="user_birthDate">Your Birthdate</label>
+                    <input type="date" name="birthDate" id="user_birthDate" min="1900-01-01" required>
+
+                    <label for="user_color">Your favorite color?</label>
+                    <select name="color" id="user_color">
+                        <option value="RED">RED</option>
+                        <option value="ORANGE">ORANGE</option>
+                        <option value="YELLOW">YELLOW</option>
+                        <option value="GREEN">GREEN</option>
+                        <option value="BLUE">BLUE</option>
+                    </select>
+                </div>
+            </section>
+            <section class="etc_info">
+                <div class="etc">
+                    <label for="user_message">Your Message</label>
+                    <textarea name="Message" id="user_message" cols="30" rows="10"></textarea>
+                    <hr>
+                    <h2>How should we verify your account?</h2>
+                    <div class="some_box">
+                        <input type="radio" name="verify_select" id="verify_SMS" value="SMS" required>
+                        <label for="verify_SMS">SMS</label>
+                    </div>
+                    <div class="some_box">
+                        <input type="radio" name="verify_select" id="verify_phoneCall" value="phone" required>
+                        <label for="verify_phoneCall">Phone call</label>
+                    </div>
+                    <div class="some_box">
+                        <input type="radio" name="verify_select" id="verify_email" value="email" required>
+                        <label for="verify_email">E-mail</label>
+                    </div>
+                    <h2>Do you agree with the privacy policy?</h2>
+                    <div class="agree_box">
+                        <label for="user_agree">YES
+                        <input type="checkbox" name="agree" id="user_agree" value="yes"></label>
+                        <label for="user_agree2">NO
+                        <input type="checkbox" name="agree" id="user_agree2" value="no"></label>
+                    </div>
+                    <label for="user_file">Give the file</label>
+                    <input type="file" name="file" id="user_file">
+                    <div class="button_family">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Clear</button>
+                    </div>
+                </div>
+            </section>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700&family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: #14213d;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 0;
+    font-size: 50px;
+    color: #f8f9fa;
+}
+
+.important_info h2 {
+    margin-top: 0;
+}
+
+form {
+    width: 30rem;
+    margin: 1rem auto;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+input, textarea, select {
+    width: 100%;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    border: 2px solid rgb(184, 184, 184);
+    border-radius: 6px;
+    padding: 0.25rem;
+    color: rgb(66, 66, 66);
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgb(219, 160, 253);
+    color: rgb(66, 0, 104);
+    border-color: rgb(66, 0, 104);
+}
+
+textarea {
+    resize: none;
+}
+
+.button_family {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    display: block;
+    font: normal 1rem 'Open Sans', sans-serif;
+    background-color: rgb(66, 0, 104);
+    color: white;
+    border: 1px solid rgb(66, 0, 104);
+    border-radius: 6px;
+    padding: .3rem 1.5rem;
+}
+
+button:hover {
+    background-color: rgb(128, 0, 202);
+    cursor: pointer;
+}
+
+.some_box, .agree_box {
+    display: flex;
+}
+
+.some_box input, .agree_box input {
+    width: auto;
+    margin-right: 10px;
+}
+
+.agree_box label {
+    margin-right: 20px;
+}
