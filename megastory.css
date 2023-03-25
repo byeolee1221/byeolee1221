@@ -1,0 +1,176 @@
+.title_section {
+    padding: 120px;
+    background-color: #303030;
+    position: relative;
+}
+
+.title_section:before {
+    content: "";
+    background-image: url('/연습/메가커피 메뉴페이지 일부/sub_head_brand.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.section_title {
+    text-align: center;
+    line-height: 3.8rem;
+    color: white;
+    font-size: 1.8rem;
+}
+
+#title_large {
+    color: #fdd000;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#title_sub {
+    font-size: 1rem;
+    letter-spacing: .2rem;
+}
+
+.second_title_section {
+    text-align: center;
+    padding: 30px;
+    background-color: #fdd000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.second_title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.second_title #second_title_sub {
+    font-weight: 300;    
+}
+
+#empty_box {
+    background-color: #fdd000;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 127px;
+    transform: rotate(-45deg);
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    text-align: center;
+}
+
+.main_title_section {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #1c1c1c;
+}
+
+#title_middle {
+    display: inline-block;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#title_bottom {
+    font-size: 1rem;
+    color: #292929;
+    height: .3rem;
+}
+
+.main_second_section {
+    padding: 70px;
+}
+
+.mega_identity {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 0;
+    width: 100%;
+    gap: 20px;
+}
+
+.identity_list {
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+}
+
+.list_box {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #707070;
+    padding-bottom: 40px;
+}
+
+.list_box #box_top {
+    color: #fdd000;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.list_box strong {
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+}
+
+.main_third_section {
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.third_section_container {
+    width: 650px;
+    align-items: center;
+}
+
+.title_wrapper {
+    padding-bottom: 30px;
+}
+
+#title_top {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1;
+    padding-bottom: 40px;
+}
+
+#title_sub_top,
+#title_sub_middle,
+#title_sub_bottom {
+    padding-bottom: 20px;
+    color: #707070;
+}
+
+.third_section_img {
+    display: flex;
+    gap: 30px;
+}
+
+.third_section_img img {
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    width: 28%;
+}
+
+.third_section_right img {
+    width: 100%;
+}
