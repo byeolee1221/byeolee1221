@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700&family=Open+Sans:wght@400;700&display=swap');
+
+html {
+    background-image: url('/연습/구글 메인페이지/damyang-gd8c826333_1920.jpg');
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', 'Open Sans', sans-serif;
+}
+
+.nav_item {
+    padding-right: 2rem;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+    font-size: .8rem;
+}
+
+.list a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.list a:hover {
+    text-decoration: underline;
+}
+
+#app_icon {
+    width: 1.5rem;
+    border-radius: 50%;
+    padding: .3rem;
+}
+
+#app_icon:hover {
+    background-color: rgba(194, 194, 194, 0.3);
+    
+}
+
+#account_img {
+    border-radius: 50%;
+    padding: .3rem;
+}
+
+#account_img:hover {
+    background-color: rgba(194, 194, 194, 0.3);
+}
+
+.main_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.search_item {
+    display: flex;
+    position: relative;
+}
+
+.search_item input {
+    width: 500px;
+    height: 40px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    padding-left: 52px;
+    padding-right: 50px;
+}
+
+.search_icon {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.search_icon img{
+    width: 20px;
+}
+
+.img_scan {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.link_list {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    list-style: none;
+    color: white;
+    text-align: center;
+    font-size: .9rem;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.list_box {
+    padding: .8rem .7rem;
+    width: 110px;
+}
+
+.list_box:hover {
+    background-color: rgba(194, 194, 194, 0.3);
+}
+
+.link a img {
+    padding: .7rem;
+    background-color: #4a4a4a;
+    border-radius: 50%
+}
+
+#link_another {
+    width: 23px;
+}
+
+.content_box {
+    width: 100%;
+    height: 410px;
+}
+
+.footer_section {
+    padding: .3rem .5rem;
+}
+
+.footer_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+.background_img_info {
+    position: relative;
+    padding-left: 30px;
+}
+
+.background_img_info a {
+    color: white;
+}
+
+.background_img_info img {
+    background-color: white;
+    width: 1.5rem;
+    border-radius: 50%;
+    opacity: 0.7;
+    position: absolute;
+    left: 2px;
+}
+
+.user_setting {
+    padding-right: 10px;
+}
+
+.user_setting img {
+    background-color: white;
+    width: 1.5rem;
+    border-radius: 50%;
+    padding: .5rem;
+    opacity: 0.7;
+}
