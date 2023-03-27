@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/수업/폼 만들기/컨택페이지/contact.css">
+</head>
+<body>
+    <header class="header_section">
+        <section class="title_section">
+            <div class="title_container">
+                <h1>Contact Us</h1>
+            </div>
+        </section>
+    </header>
+    <main class="main_section">
+        <form action="/" method="GET" class="main_form">
+        <section class="main_container">
+            <div class="important_info">
+                    <h2>How can we help you?</h2>
+            
+                    <label for="user_name">Your Name</label>
+                    <input type="text" name="name" id="user_name" required>
+            
+                    <label for="user_email">Your E-Mail Address</label>
+                    <input type="email" name="email" id="user_email" required>
+            
+                    <label for="user_phone_number">Your Phone Number</label>
+                    <input type="tel" name="phone" id="user_phone_number" minlength="11" required>
+            
+                    <label for="user_message">Your Message</label>
+                    <textarea name="message" id="user_message" cols="30" rows="10" maxlength="200"></textarea>
+            
+                    <label for="user_find">How did you find us?</label>
+                    <select name="find" id="user_find" required>
+                        <option value="Web">Web Search</option>
+                        <option value="mouth">Word of Mouth</option>
+                        <option value="other">Other</option>
+                    </select>
+            </div>
+            <div class="optional_info">
+                <h2>How should we reply?</h2>
+                
+                <div class="radio_box">
+                    <input type="radio" name="reply" id="user_reply" value="callMe" required>
+                    <label for="user_reply">Call me</label>
+                </div>
+                <div class="radio_box">
+                    <input type="radio" name="reply" id="user_reply" value="email" required>
+                    <label for="user_reply">Send me an email</label>
+                </div>
+                <div class="radio_box">
+                    <input type="radio" name="reply" id="user_reply" value="NoReply" required>
+                    <label for="user_reply">Don't reply</label>
+                </div>
+                <div class="checkbox_box">
+                    <input type="checkbox" name="terms" id="user_accept_terms" required>
+                    <label for="user_accept_terms">Accept Terms</label>
+                </div>
+            </div>
+            <div class="form_button">
+                <button type="reset">Clear</button>
+                <button type="submit">Submit</button>
+            </div>
+        </section>
+    </form>
+    </main>
+</body>
+</html>
