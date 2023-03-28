@@ -2,7 +2,7 @@
 
 ### 웹개발자 준비중인 byeolee입니다. 😀
 
-### ✨ Contact: zicsso1221@gmail.com
+### ✨ Contact: zicsso@naver.com
 
 ## 💎Front-End Stack💎   
 ![](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white)
