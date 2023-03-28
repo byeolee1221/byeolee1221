@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+html {
+    --color-grey-700: #252422;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/수업/자바스크립트/3.28/images/javascript-g3492c6461_1920.jpg);
+    background-size: cover;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header_title h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--color-grey-700);
+    margin-bottom: 1rem;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(255, 242, 242, 0.7);
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgb(172, 172, 172);
+    margin: auto 40rem;
+    padding: auto;
+}
+
+.main_container h2 {
+    margin-bottom: 0;
+    color: var(--color-grey-700);
+}
+
+.main_contents ul {
+    list-style: none;
+    font-size: 1.2rem;
+    color: var(--color-grey-700);
+}
+
+.main_contents ul li {
+    padding-top: .5rem;
+}
+
+.link {
+    padding-top: .6rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    background-color: #ccc5b9;
+    padding: .6rem;
+    border-radius: 10px;
+    color: #fffcf2;
+}
+
+.link a:hover {
+    background-color: #403d39;
+}
