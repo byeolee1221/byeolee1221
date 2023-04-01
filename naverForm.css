@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f6f7;
+    font-family: Dotum, '돋움', Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+input {
+    padding: 3rem auto;
+    height: 3rem;
+    cursor: pointer;
+}
+
+select {
+    cursor: pointer;
+}
+
+.title_section {
+    display: block;
+    margin-top: 60px;
+}
+
+#logo {
+    display: block;
+    background-image: url('/연습/네이버 회원가입 폼/images/m_naver_logo_20191126.png');
+    background-size: 240px auto;
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 44px;
+    color: transparent;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.main_form {
+    width: 30rem;
+    margin: 3rem auto;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input_box {
+    background-color: white;
+    border: 1px solid #dadada;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.input_box span {
+    color: #8e8e8e;
+    font-size: .9rem;
+    padding-left: 20px;
+}
+
+.input_item {
+    width: 350px;
+    border: none;
+}
+
+.input_item_full {
+    width: 465px;
+    border: none;
+}
+
+#password_img {
+    width: 30px;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    filter: invert(60%);
+}
+
+.input_box_birthDate input {
+    width: 145px;
+    border: none;
+    background-color: white;
+    border: 1px solid #dadada;
+    margin-bottom: 20px;
+}
+
+.input_box_birthDate select {
+    width: 157px;
+    height: 3.2rem;
+    padding: .5rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    border: none;
+    background-color: white;
+    border: 1px solid #dadada;
+    margin-bottom: 20px;
+}
+
+.input_box_sex select,
+.input_box_number select {
+    width: 478px;
+    height: 3rem;
+    border: none;
+    background-color: white;
+    border: 1px solid #dadada;
+    margin-bottom: 20px;
+    padding: .5rem;
+}
+
+.input_box_number select {
+    margin-bottom: .4rem;
+}
+
+#input_box_email {
+    margin-bottom: 30px;
+}
+
+#email_span {
+    font-size: .8rem;
+    font-weight: 100;
+    color: #8e8e8e;
+}
+
+.input_box_number_text input {
+    width: 350px;
+    border: none;
+    background-color: white;
+    border: 1px solid #dadada;
+    margin-bottom: 20px;
+}
+
+#user_number {
+    margin-bottom: .4rem;
+}
+
+.input_box_number_text a {
+    text-decoration: none;
+    background-color: #03c75a;
+    padding: 19px 8px;
+    color: white;
+    font-weight: bold;
+    font-size: .9rem;
+    margin-left: 5px;
+}
+
+.input_box_verify_number {
+    margin-bottom: 20px;
+}
+
+.input_box_verify_number input {
+    width: 470px;
+}
+
+.signIn_button button {
+    border: none;
+    width: 478px;
+    height: 50px;
+    background-color: #03c75a;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.upper_items .items_list {
+    margin-bottom: .4rem;
+}
+
+.items_list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.items_list li a {
+    color: #666;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+#personal_info {
+    font-weight: bold;
+}
+
+.dividing_line {
+    font-weight: 100;
+    color: #dadada;
+}
+
+#bottom_logo {
+    color: #03c75a;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#copyright {
+    font-size: .7rem;
+    color: #333;
+}
+
+#copyright a {
+    font-weight: bold;
+    font-size: .7rem;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
