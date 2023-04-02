@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', 'Roboto', sans-serif;
+}
+
+button {
+    display: inline-flex;
+    color: rgb(33, 37, 41);
+    font-family: 'Noto Sans KR', sans-serif;
+    border-bottom: 2px solid rgb(254, 44, 84);
+}
+
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+    padding-top: 0;
+}
+
+.nav_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.nav_left {
+    padding-left: 1.2rem;
+}
+
+.nav_right {
+    padding-right: 1.2rem;
+}
+
+.nav_left_item,
+.nav_right_item {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-weight: bold;
+    /* margin-top: .2rem; */
+    align-items: center;
+}
+
+.hidden_list_wrapper {
+    display: inline-block;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 0;
+    text-align: left;
+    width: 130px;
+    height: 10px;
+    left: 30px;
+    top: 50px;
+}
+
+.button_active_list {
+    display: none;
+    list-style: none;
+    z-index: 1;
+}
+
+.button_active_list li {
+    padding-bottom: 5px;
+}
+
+.button_active_list li a {
+    display: block;
+}
+
+.hidden_list_wrapper:hover .button_active_list {
+    display: block;
+    border-radius: 6px;
+    box-shadow: 3px 3px 4px #e0e0e0;
+}
+
+.left_list {
+    border-bottom: 2px solid transparent;
+    padding-bottom: .2rem;
+    transition: all 0.2s ease 0s;
+}
+
+.left_list:hover {
+    border-bottom: 2px solid rgb(254, 44, 84);
+}
+
+.left_list button {
+    background: none;
+    border-radius: unset;
+    border-top: none;
+    border-bottom: 2px solid transparent;
+    border-left: none;
+    border-right: none;
+    font-size: .9rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 0;
+}
+
+.left_list a {
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+    font-size: .9rem;
+}
+
+#nav_left_third,
+#nav_right_first {
+    color: rgb(254, 44, 84);
+}
+
+.right_list a {
+    text-decoration: none;
+    font-size: 1rem;
+    border-bottom: 2px solid transparent;
+    padding-bottom: .2rem;
+    transition: all 0.2s ease 0s;
+}
+
+.right_list a:hover {
+    border-bottom: 2px solid rgb(254, 44, 84);
+}
+
+.right_list button {
+    background-color: rgb(254, 44, 84);
+    border-radius: 8px;
+    border: none;
+    padding: .7rem 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.button_box {
+    display: flex;
+    align-items: center;
+}
+
+#call_icon {
+    width: 20px;
+    filter: invert();
+    padding-right: .4rem;
+}
