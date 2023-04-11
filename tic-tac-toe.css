@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Nanum Gothic', sans-serif;
+}
+
+.title_items {
+    text-align: center;
+    padding: 2rem;
+    background-color: #8a42f5;
+    color: #f9f5ff;
+}
+
+.main_items {
+    text-align: center;
+    background-color: #f9f5ff;
+    padding: 5rem;
+    width: auto;
+    height: 100vh;
+}
+
+.player_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.player_one,
+.player_two {
+    background-color: #eee3ff;
+    padding: 1rem 4rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #d9d9d9;
+}
+
+.top_pg {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#player_name {
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: #8a42f5;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.middle_pg {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.player_btn {
+    border: none;
+    border-radius: 8px;
+    background: none;
+    color: #b247ff;
+    font-weight: bold;
+    cursor: pointer;
+    padding: .7rem 1.5rem;
+}
+
+.player_btn:hover {
+    background-color: #e5c2ff;
+}
+
+#start_btn {
+    background-color: #8a42f5;
+    padding: .7rem 1.2rem;
+    color: #f9f5ff;
+    font-size: 1rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 2px 5px #d9d9d9;
+    cursor: pointer;
+}
+
+#start_btn:hover {
+    background-color: #6600ff;
+}
+
+.game_container {
+    margin-top: 50px;
+    /* display: none; */
+}
+
+.winner_box {
+    background-color: #8a42f5;
+    margin: 1rem 20rem;
+    padding: 1.5rem;
+}
+
+.winner_box h3 {
+    font-size: 2rem;
+}
+
+.player_turn_msg {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.player_turn_msg span {
+    font-weight: bold;
+}
+
+.tictactoe_game {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.game_box {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 6rem);
+    grid-template-rows: repeat(3, 6rem);
+    gap: .7rem;
+}
+
+.game_box li {
+    width: 100px;
+    height: 100px;
+    background-color: #b247ff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.game_box li:hover {
+    background-color: #8a42f5;
+}
+
+.game_box li.disabled {
+    background-color: #8a42f5;
+    color: #f9f5ff;
+    cursor: default;
+}
