@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="/수업/자바스크립트/4.12/overlay(4.12).css">
+    <link rel="stylesheet" href="/수업/자바스크립트/4.12/overlay-configuration(4.12).css">
+    <link rel="stylesheet" href="/수업/자바스크립트/4.12/tic-tac-toe(4.12).css">
+    <script src="/수업/자바스크립트/4.12/tic-tac-toe(config) 4.12.js" defer></script>
+    <script src="/수업/자바스크립트/4.12/tic-tac-toe(game) 4.12.js" defer></script>
+    <script src="/수업/자바스크립트/4.12/tic-tac-toe(4.12).js" defer></script>
+</head>
+<body>
+    <div id="backdrop"></div>
+    <header class="header_section">
+        <div class="title_items">
+            <h1>Play Tic, Tac, Toe</h1>
+            <p>Bulit with HTML, CSS, JavaScript and - of course - lots of love!</p>
+        </div>
+    </header>
+    <aside>
+        <h2 class="overlay_title">Choose your name</h2>
+        <form>
+            <div class="name_box">
+                <label for="user_name">Player name</label>
+                <input type="text" name="player_name" id="user_name" required>
+            </div>
+            <p id="config_error"></p>
+            <div class="overlay_btn">
+                <button type="reset" id="cancel_btn">Cancel</button>
+                <button type="submit" id="confirm_btn">Confirm</button>
+            </div>
+        </form>
+    </aside>
+    <main class="main_section">
+        <div class="main_items">
+            <div class="player_box">
+                <div id="player-1-data">
+                    <p class="top_pg">Player 1</p>
+                    <p id="player-1">PLAYER NAME</p>
+                    <p class="middle_pg">X</p>
+                    <button type="button" class="player_btn" id="edit_player1" data-playerid="1">Edit</button>
+                </div>
+                <div id="player-2-data">
+                    <p class="top_pg">Player 2</p>
+                    <p id="player-2">PLAYER NAME</p>
+                    <p class="middle_pg">O</p>
+                    <button type="button" class="player_btn" id="edit_player2" data-playerid="2">Edit</button>
+                </div>
+            </div>
+            <div class="start_btn_section">
+                <button type="submit" id="start_btn">Start New Game</button>
+            </div>
+            <div class="game_container">
+                <div class="winner_box">
+                    <h3>You won, <span id="winner_name">PLAYER NAME</span>!</h3>
+                    <p class="final_pg">Click "Start New Game" above, to start a new game!</p>
+                </div>
+                <div class="player_turn_msg">It's your turn <span id="active_player_name">Player name</span>!</div>
+                <div class="tictactoe_game">
+                    <ol class="game_box">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
