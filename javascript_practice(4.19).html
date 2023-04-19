@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바스크립트 연습</title>
+    <link rel="stylesheet" href="/연습/자바스크립트 연습/기본기능 구현/4.19/js_practice(4.19).css">
+    <script src="/연습/자바스크립트 연습/기본기능 구현/4.19/js_practice(4.19).js" defer></script>
+</head>
+<body>
+    <header class="header_section">
+        <div class="header_title">
+            <h1>Welcome to JavaScript-land</h1>
+            <p>지금까지 배운 자바스크립트 기능들을 다시 구현해보는 시간</p>
+        </div>
+    </header>
+    <main class="main_section">
+        <div class="main_container">
+            <div class="first_practice">
+                <h2>글자수 실시간 카운트</h2>
+                <form>
+                    <label for="user_msg">문의사항</label>
+                    <div class="textarea_box">
+                        <textarea name="Message" id="user_msg" cols="30" rows="10" maxlength="300" required></textarea><span>(<span id="count">300</span>/300)</span>
+                    </div>
+                </form>
+            </div>
+            <div class="second_practice">
+                <h2>단락을 지우고 단락에 배경색 넣기</h2>
+                <p id="first_pg">별아, 이 문장을 지워줘.</p>
+                <p id="second_pg">자바스크립트는 매우 중요하다. 자바스크립트는 어렵다. 그래서 연습을 많이 해야한다. 얼마나 연습을 해야 실력이 늘까? 나도 모른다. 내 지식은 태초마을로 자꾸 돌아간다..</p>
+                <div class="second_practice_btn">
+                    <button type="button" id="delete_btn">Delete</button>
+                    <button type="button" id="background_btn">Background</button>
+                </div>
+            </div>
+            <div class="third_practice">
+                <h2>퀴즈</h2>
+                <form class="question_form">
+                    <label for="user_answer">요즘 재밌게 하는 게임은?</label>
+                    <input type="text" name="answer_text" id="user_answer" required>
+                    <p class="error"></p>
+                </form>
+                <button type="button" id="answer_btn">정답 확인</button>
+                <div class="answer_box">
+                    정답입니다.
+                </div>
+            </div>
+            <div class="forth_practice">
+                <h2>While 반복문 사용 연습하기</h2>
+                <p>아래 숫자를 입력하고 버튼을 누르면 주사위가 굴러집니다. 주사위는 입력한 숫자와 같아질 때까지 굴려지고, 아래에 그 내역이 보여집니다.</p>
+                <form class="roll_dice_form">
+                    <label for="user_roll">숫자 입력</label>
+                    <input type="number" name="user_roll" id="user_roll" required>
+                </form>
+                <button type="button" id="rollDice_btn">주사위 굴리기</button>
+                <ol class="roll_dice_info">
+
+                </ol>
+                <p class="info_box_text">당신은 숫자 <span id="forth_user_input">O</span>을 입력했고, 주사위는 <span id="dice_roll_num">O</span>번 굴려졌습니다.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

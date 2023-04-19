@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@300;400;700&display=swap');
+
+html {
+    --color-grey-title: #3b3b3b;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e3d5ca;
+    font-family: 'Noto Sans KR', 'Roboto', sans-serif;
+}
+
+.header_title {
+    background-color: #d5bdaf;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.header_title h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+
+.header_title p {
+    font-size: 1rem;
+}
+
+.main_container {
+    text-align: center;
+}
+
+.first_practice, 
+.third_practice,
+.forth_practice {
+    background-color: #edede9;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: .9rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 4px #2b2d42;
+}
+
+.first_practice h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: var(--color-grey-title)
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   margin: auto;
+   align-items: flex-start; 
+}
+
+label {
+    color: var(--color-grey-title);
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+    resize: none;
+    font: inherit;
+}
+
+.textarea_box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+textarea.warning_10 {
+    background-color: #ef476f;
+}
+
+textarea.warning_0 {
+    background-color: #e63946;
+}
+
+.textarea_box #count.warning_10 {
+    color: #ef476f;
+}
+
+.textarea_box #count.warning_0 {
+    color: #e63946;
+}
+
+.second_practice {
+    background-color: #edede9;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    padding: .9rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 4px #2b2d42;
+}
+
+#second_pg.bg {
+    background-color: #e29578;
+}
+
+button {
+    padding: .5rem 1.5rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #83c5be;
+}
+
+#delete_btn {
+    margin-right: 15px;
+}
+
+#user_answer {
+    width: 100%;
+    height: 30px;
+}
+
+.third_practice button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ccd5ae;
+}
+
+.third_practice button:hover {
+    background-color: #898f76;
+}
+
+.error {
+    background-color: #e63946;
+    margin: auto;
+}
+
+.answer_box {
+    padding: .8rem;
+    background-color: #e29578;
+    border-radius: 8px;
+    width: 70%;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: none;
+}
+
+#user_roll {
+    width: 50%;
+    height: 30px;
+}
+
+#rollDice_btn {
+    margin-top: 10px;
+    background-color: #ccd5ae;
+}
+
+#rollDice_btn:hover {
+    background-color: #898f76;
+}
+
+.roll_dice_info {
+    list-style: none;
+}
+
+.info_box_text {
+    background-color: #d5bdaf;
+    width: 70%;
+    margin: auto;
+    padding: .9rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
