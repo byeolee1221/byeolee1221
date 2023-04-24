@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#carouselExampleIndicators {
+    width: 50%;
+    height: 500px;
+    margin: auto;
+
+}
+
+#carouselExampleIndicators img {
+    height: 31rem;
+    object-fit: cover;
+}
+
+.form_bootstrap {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+section {
+    width: 100%;
+}
+
+section img {
+    width: 50%;
+    margin: auto;
+    object-fit: cover;
+}
