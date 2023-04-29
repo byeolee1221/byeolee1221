@@ -1,0 +1,77 @@
+.main_container {
+    margin-top: 50px;
+}
+
+.main_sellingInfo {
+    background-color: #c6ac8f;
+    width: 50%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 3px 9px #414141;
+}
+
+.main_container h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #0a0908;
+}
+
+.sell_product {
+    padding: .3rem;
+}
+
+.box_structure {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: #5e503f;
+    margin: .7rem;
+    border-radius: 10px;
+}
+
+.sell_date {
+    background-color: #22333b;
+    padding: .8rem;
+    margin: .5rem;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.date_year, .date_month, .date_day {
+    color: white;
+}
+
+.date_year {
+    font-size: 1.5rem;
+}
+
+.date_month, .date_day {
+    font-size: 1.3rem;
+}
+
+.box_description {
+    text-align: left;
+    width: 63%;
+    left: 0;
+}
+
+.box_description h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+
+.box_description p {
+    color: white;
+    margin-top: 10px;
+}
+
+.box_price {
+    font-size: 1.1rem;
+    padding: .8rem;
+    margin: auto;
+    margin-right: 10px;
+    background-color: #eae0d5;
+    border-radius: 8px;
+}

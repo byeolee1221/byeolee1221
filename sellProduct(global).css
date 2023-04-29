@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', 'Roboto', sans-serif;
+    background-color: #eae0d5;
+}
+
+.header_section {
+    text-align: center;
+    padding: 3rem;
+    background-color: #c6ac8f;
+}
+
+.header_logo a {
+    font-size: 2.5rem;
+    text-decoration: none;
+    background-color: #5e503f;
+    color: white;
+    border-radius: 50%;
+    padding: 1.3rem 2rem;
+}
+
