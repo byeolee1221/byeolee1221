@@ -1,6 +1,6 @@
-import ExpenseAmount from './components/ExpenseAmount';
+import ExpenseAmount from './components/Expenses/ExpenseAmount';
 
-function App() {
+const App = () => {
   const expenses = [
     {title: '생필품', amount: '24,400원', date: new Date(2023, 3, 28)}, 
     {title: '커피', amount: '9,500원', date: new Date(2023, 3, 28)}, 
