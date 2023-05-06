@@ -1,0 +1,14 @@
+.expenseItem_box_datebox {
+    width: 100%;
+    background-color: var(--color-box-3);
+    padding: .4rem;
+    border-radius: 6px;
+}
+
+.datebox_year {
+    font-size: 1.5rem;
+}
+
+.datebox_month_day {
+    font-size: 1rem;
+}

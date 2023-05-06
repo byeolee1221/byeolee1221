@@ -1,0 +1,15 @@
+.header_container {
+    text-align: center;
+}
+
+.header_container h1 {
+    color: var(--color-font-1);
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.header_container p {
+    color: var(--color-font-2);
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
