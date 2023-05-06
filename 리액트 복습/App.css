@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+html {
+  --color-background-1: #252422;
+  --color-font-1: #fffcf2;
+  --color-font-2: #ccc5b9;
+  --color-box-1: #403d39;
+  --color-box-2: #eb5e28;
+  --color-box-3: #797979;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background-1);
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+}
+
