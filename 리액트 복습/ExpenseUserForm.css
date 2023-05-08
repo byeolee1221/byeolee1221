@@ -1,0 +1,37 @@
+label {
+    font-size: 1.5rem;
+    color: var(--color-font-2);
+    padding: .5rem;
+    text-align: left;
+}
+
+input {
+    width: 30rem;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    font: inherit;
+    padding: .3rem;
+}
+
+#form_btn {
+    margin-top: 20px;
+    background-color: var(--color-box-1);
+    padding: .8rem 1.5rem;
+    font-size: 1.2rem;
+    color: var(--color-font-1);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#form_btn:hover {
+    background-color: var(--color-box-3);
+}
+
+.user_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
