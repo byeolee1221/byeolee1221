@@ -1,0 +1,15 @@
+.main_userdata {
+    margin-bottom: 20px;
+}
+
+.main_userdata h2 {
+    text-align: center;
+    color: var(--color-font-1);
+    border-bottom: 3px solid var(--color-font-1);
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: .5rem;
+    letter-spacing: .2rem;
+    font-size: 2.3rem;
+}

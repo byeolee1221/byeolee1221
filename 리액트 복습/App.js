@@ -1,6 +1,7 @@
 import ExpenseHeader from "./components/ExpenseHeader";
 import ExpenseMainTitle from "./components/ExpenseMainTitle";
 import ExpenseExampleData from "./components/ExpensesExampleData";
+import ExpenseUser from "./components/ExpenseUser";
 import "./App.css";
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <div className="App">
       <ExpenseHeader />
+      <ExpenseUser />
       <ExpenseMainTitle />
       <ExpenseExampleData item={expensesExample} />
     </div>
