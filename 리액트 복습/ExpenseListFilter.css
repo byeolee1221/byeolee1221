@@ -1,0 +1,14 @@
+.expense_filter_box {
+    width: 40%;
+    text-align: right;
+    margin: auto;
+}
+
+select {
+    margin-left: 20px;
+    width: 8rem;
+    height: 40px;
+    font-size: 1.1rem;
+    padding-left: .2rem;
+}
+
