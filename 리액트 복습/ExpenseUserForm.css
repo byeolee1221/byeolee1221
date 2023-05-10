@@ -25,7 +25,20 @@ input {
     cursor: pointer;
 }
 
-#form_btn:hover {
+#form_cancel_btn {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: var(--color-box-1);
+    padding: .8rem 1.5rem;
+    font-size: 1.2rem;
+    color: var(--color-font-1);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#form_btn:hover,
+#form_cancel_btn:hover {
     background-color: var(--color-box-3);
 }
 

@@ -43,7 +43,10 @@ const ExpenseUserForm = (props) => {
                 <input onChange={priceChangeHandler} type="number" name="price" id="user_item_price" min="100" step="100" value={priceChange} required />
                 <label for="user_expense_date">구입날짜</label>
                 <input onChange={dateChangeHandler} type="date" name="expenseDate" id="user_expense_date" min="2020-01-01" max="2023-12-31" value={dateChange} required />
-                <button id="form_btn" type="submit">리스트에 추가하기</button>
+                <div className="form_btn_box">
+                    <button id="form_btn" type="submit">리스트에 추가하기</button>
+                    <button onClick={props.onCancel} id="form_cancel_btn" type="button">닫기</button>
+                </div>
             </div>
         </form>
     );
