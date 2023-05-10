@@ -1,5 +1,20 @@
+button {
+    background-color: var(--color-box-3);
+    padding: .5rem 1.5rem;
+    margin: 20px auto;
+    font-size: 1.5rem;
+    color: var(--color-font-1);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-box-1);
+}
+
 .main_userdata {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .main_userdata h2 {

@@ -1,0 +1,15 @@
+.main_expanselist_data {
+    margin: auto;
+    margin-top: 30px;
+    background-color: #414141;
+    width: 40%;
+    border-radius: 8px;
+    padding: .5rem 1rem;
+    box-shadow: 0 3px 5px #3a3a3a;
+}
+
+.main_expanselist_data p {
+    text-align: center;
+    color: var(--color-font-1);
+    font-size: 1.5rem;
+}
