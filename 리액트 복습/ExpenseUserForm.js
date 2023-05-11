@@ -23,7 +23,7 @@ const ExpenseUserForm = (props) => {
 
         const userFormData = {
             itemName: itemNameChange,
-            price: priceChange,
+            price: +priceChange,
             date: new Date(dateChange)
         };
 

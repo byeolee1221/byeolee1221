@@ -4,6 +4,7 @@ import ExpenseMainTitle from "./components/ExpenseMainTitle";
 import ExpenseExampleData from "./components/ExpensesExampleData";
 import ExpenseUser from "./components/ExpenseUser";
 import ExpenseListFilter from "./components/ExpenseListFilter";
+import ExpenseChartData from "./components/ExpenseChartData";
 import "./App.css";
 
 const expensesDummy = [
@@ -38,6 +39,7 @@ const App = () => {
       <ExpenseUser onAddList={addExpenseListHandler} />
       <ExpenseMainTitle />
       <ExpenseListFilter selectYear={selectedYear} onFilterChange={filterHandler} />
+      <ExpenseChartData expense={filterExpenseList} />
       <ExpenseExampleData item={expense} onFilterExpenseList={filterExpenseList} />
     </div>
   );
