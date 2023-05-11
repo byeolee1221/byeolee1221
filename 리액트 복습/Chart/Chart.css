@@ -1,0 +1,13 @@
+.main_expense_chart {
+    display: flex;
+    width: 40%;
+    height: 10rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
+    padding: .8rem;
+    background-color: var(--color-box-1);
+    border-radius: 8px;
+}
+
+

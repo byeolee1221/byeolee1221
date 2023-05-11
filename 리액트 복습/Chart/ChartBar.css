@@ -1,0 +1,30 @@
+.main_expense_chartBar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chartBar_inner {
+    height: 100%;
+    width: 20px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background-color: var(--color-box-3);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.chartBar_inner_fill {
+    width: 100%;
+    background-color: var(--color-box-2);
+    transition: all 0.3s ease-out;
+}
+
+.chartBar_label {
+    color: var(--color-font-1);
+    font-size: 1.1rem;
+}
