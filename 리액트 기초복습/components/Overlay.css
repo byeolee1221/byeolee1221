@@ -1,0 +1,35 @@
+.backdrop {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+}
+
+.backdrop.close {
+    display: none;
+}
+
+.overlay_container {
+    background-color: var(--color-box-4);
+    width: 40%;
+    height: 250px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    position: absolute;
+    z-index: 7;
+    left: 685px;
+    border-radius: 8px;
+}
+
+.overlay_container h2 {
+    font-size: 2rem;
+    color: var(--color-font-1);
+}
+
+.overlay_container button {
+    font-weight: bold;
+}

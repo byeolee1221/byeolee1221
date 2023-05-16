@@ -1,0 +1,42 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 50px auto;
+    padding: 2rem;
+    background-color: var(--color-box-1);
+    border-radius: 10px;
+    box-shadow: 0 3px 3px var(--color-box-1);
+}
+
+label {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: var(--color-font-1);
+}
+
+input {
+    margin-bottom: 10px;
+    height: 40px;
+    font: inherit;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.1rem;
+    padding-left: .7rem;
+}
+
+button {
+    margin: 20px auto;
+    margin-bottom: 0;
+    height: 50px;
+    font-size: 1.3rem;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--color-box-2);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-box-3);
+}
