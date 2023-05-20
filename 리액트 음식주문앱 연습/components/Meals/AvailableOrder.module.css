@@ -1,0 +1,28 @@
+.main_availableOrder {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    animation: list_appear 1s ease-out forwards;
+}
+
+.main_availableOrder ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+@keyframes list_appear {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

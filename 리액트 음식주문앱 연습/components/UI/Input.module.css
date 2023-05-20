@@ -1,0 +1,18 @@
+.input_box {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.input_box label {
+    font-weight: bold;
+}
+
+.input_box input {
+    padding: .5rem;
+    border-radius: 8px;
+    border: 1px solid var(--color-box-3);
+    font: inherit;
+    font-size: 1.1rem;
+}
