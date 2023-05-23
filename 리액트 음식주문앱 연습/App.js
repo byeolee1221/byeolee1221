@@ -1,7 +1,8 @@
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 import CartModal from "./components/Cart/CartModal";
 import Header from "./components/Layout/Header";
 import Main from "./components/Meals/Main";
+import CartProvider from "./store/CartProvider";
 import "./App.css";
 
 function App () {
@@ -19,11 +20,11 @@ function App () {
   }
 
   return (
-    <Fragment>
+    <CartProvider>
       <CartModal onModalClose={modalCloseHandler} valueModal={modalDisplay} valueBackdrop={backdropDisplay} />
       <Header onModalOpen={modalOpenHandler} valueModal={modalDisplay} valueBackdrop={backdropDisplay} />
       <Main />
-    </Fragment>
+    </CartProvider>
   );
 }
 
