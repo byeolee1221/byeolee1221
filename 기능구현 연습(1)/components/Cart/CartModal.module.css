@@ -1,0 +1,14 @@
+.cart_overlay {
+    position: absolute;
+    width: 40%;
+    margin: auto;
+    z-index: 13;
+    top: 600px;
+    left: 700px;
+}
+
+.overlay_container {
+    background-color: var(--color-box-1);
+    width: 100%;
+    
+}

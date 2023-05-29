@@ -1,0 +1,17 @@
+.header_logo {
+    text-align: center;
+}
+
+.header_logo_link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--color-font-1);
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header_logo_link img {
+    width: 20%;
+    margin: auto;
+}
