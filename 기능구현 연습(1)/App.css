@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;700&display=swap');
+
+
+html {
+  --color-font-1: #212529;
+  --color-font-2: #f8f9fa;
+  --color-box-1: #e9ecef;
+  --color-box-2: #a98467;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', 'Roboto', 'Poppins', sans-serif;
+}
