@@ -1,0 +1,48 @@
+.overlay_box {
+    position: fixed;
+    text-align: center;
+    background-color: var(--color-box-2);
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+    z-index: 12;
+    top: 300px;
+    left: 650px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.overlay_box.close {
+    display: none;
+}
+
+.overlay_title h2 {
+    font-size: 2rem;
+    color: var(--color-font-1);
+}
+
+.overlay_paragraph p {
+    font-size: 1.3rem;
+    color: var(--color-font-1);
+    line-height: 2rem;
+}
+
+#overlay_para2 {
+    color: var(--color-font-2);
+}
+
+.overlay_btn {
+    padding: .5rem 2rem;
+    font: inherit;
+    font-size: 1.2rem;
+    background-color: var(--color-box-3);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.overlay_btn:hover,
+.overlay_btn:active {
+    background-color: var(--color-box-4);
+}
