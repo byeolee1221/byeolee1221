@@ -1,0 +1,23 @@
+.main_mustHave_container {
+    text-align: center;
+}
+
+.main_mustHave_container h2 {
+    margin-top: 0;
+    font-size: 2.5rem;
+    color: var(--color-font-1);
+}
+
+.mustHave_list {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.mustHave_item p {
+    color: var(--color-font-3);
+}

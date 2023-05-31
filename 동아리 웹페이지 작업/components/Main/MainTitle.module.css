@@ -1,0 +1,32 @@
+.main_upper_title {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 250px;
+    left: 450px;
+    width: 900px;
+}
+
+.main_upper_title h1 {
+    font-size: 3rem;
+    background: linear-gradient(to left, rgb(254, 44, 84), #4361ee);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+    z-index: 9;
+}
+
+.main_upper_title img {
+    position: relative;
+    left: -60px;
+    top: -80px;
+    transform: rotateZ(-45deg);
+}
+
+#music_icon_bottom {
+    position: relative;
+    transform: rotateZ(-45deg);
+    top: 80px;
+    left: 610px;
+}
