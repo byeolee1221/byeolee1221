@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/연습/자바스크립트 연습/6.6 수업 복습/style.css">
+    <title>Basic practice</title>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <h1 class="header_title">The Unconventional Calculator</h1>
+        </div>
+    </header>
+    <main>
+        <div class="main_container">
+            <div class="calculator_box">
+                <div class="calculator_inner">
+                    <div class="calculator_user_form">
+                        <form class="user_form">
+                            <input id="user_input" type="number" min="1">
+                        </form>
+                    </div>
+                    <div class="calculator_func_btns">
+                        <button type="button" id="btn_add">+</button>
+                        <button type="button" id="btn_sub">-</button>
+                        <button type="button" id="btn_mul">*</button>
+                        <button type="button" id="btn_div">/</button>
+                    </div>
+                </div>
+            </div>
+            <div class="result_box">
+                <p id="result_process">0</p>
+                <p id="result">Result: <span id="result_num">0</span></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="/연습/자바스크립트 연습/6.6 수업 복습/connectionElement.js"></script>
+    <script src="/연습/자바스크립트 연습/6.6 수업 복습/app.js"></script>
+</body>
+</html>
