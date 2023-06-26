@@ -1,0 +1,41 @@
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eddcff;
+    width: 40%;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.7);
+}
+
+.main_title {
+    color: #474747;
+    margin-top: 0;
+}
+
+.title_counter {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5c00b8;
+}
+
+.main_btns button {
+    padding: .5rem 1.5rem;
+    margin: .8rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #5c00b8;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.main_btns button:hover,
+.main_btns button:active {
+    background-color: #6e00db;
+}
