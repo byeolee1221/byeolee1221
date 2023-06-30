@@ -1,0 +1,25 @@
+.main_social_container {
+    text-align: center;
+}
+
+.main_social_container h2 {
+    font-size: 2.5rem;
+    color: var(--color-font-1);
+}
+
+.social_link {
+    margin-bottom: 50px;
+}
+
+.social_link ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.social_item a img {
+    width: 100%;
+}
