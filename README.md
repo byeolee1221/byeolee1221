@@ -14,9 +14,8 @@
 ![](https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=Typescript&logoColor=white)
 
 ## 포트폴리오 Repository
-* 포토플리오 01 (Pan's PM 동아리 웹사이트) : https://github.com/byeolee1221/panspm-project
+* 포토플리오 01 (Pan's PM 동아리 웹사이트 리팩토링) : https://github.com/byeolee1221/pans-pm-refactoring
 * 포트폴리오 02 (와인커뮤니티 Decanting House) : https://github.com/byeolee1221/DecantingHouse
-* 포트폴리오 03 (Pan's PM 동아리 웹사이트 리팩토링) : https://github.com/byeolee1221/pans-pm-refactoring
 
 <!--
 **byeolee1221/byeolee1221** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
