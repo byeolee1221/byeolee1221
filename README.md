@@ -1,6 +1,6 @@
 ## 안녕하세요! 👋
 
-### 웹개발자 준비중인 byeolee입니다. 😀
+### 웹개발자 문창기입니다. 😀
 
 ### ✨ Contact: zicsso@naver.com
 
