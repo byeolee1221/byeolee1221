@@ -29,6 +29,9 @@
 ### 협업프로젝트
 * 포트폴리오 03 (아이돌 후원 플랫폼 Fandom-k) : https://github.com/byeolee1221/Fandom-K
 
+### 미니프로젝트
+* 랜덤문제 순위정하기 : https://github.com/byeolee1221/randomQuiz
+
 <!--
 **byeolee1221/byeolee1221** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
