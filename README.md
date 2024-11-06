@@ -28,6 +28,7 @@
 
 ### 협업프로젝트
 * 포트폴리오 03 (아이돌 후원 플랫폼 Fandom-k) : https://github.com/byeolee1221/Fandom-K
+* 포트폴리오 04 (업무효율성 증대 협업플랫폼 Taskify) : https://github.com/byeolee1221/taskify
 
 ### 미니프로젝트
 * 랜덤문제 순위정하기 : https://github.com/byeolee1221/randomQuiz
