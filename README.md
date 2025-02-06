@@ -24,7 +24,7 @@
 
 ## 포트폴리오 Repository
 ### 개인프로젝트
-* 포토플리오 01 (Pan's PM 동아리 웹사이트 리팩토링) : https://github.com/byeolee1221/pans-pm-refactoring
+* 포토플리오 01 (Pan's PM 동아리 웹사이트) : https://github.com/byeolee1221/pans-pm-refactoring
 * 포트폴리오 02 (공인중개사 업무 효율화 플랫폼 중개랜드) : https://github.com/byeolee1221/realEstateAgent-land
 
 ### 협업프로젝트
