@@ -1,6 +1,6 @@
 ## 안녕하세요! 👋
 
-### 웹개발자 문창기입니다. 😀
+### 프론트엔드 개발자 문창기입니다. 😀
 
 ### ✨ Contact: dev.mck1221@gmail.com
 
@@ -22,6 +22,7 @@
 ![](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=Prisma&logoColor=white)
 ![](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white)
 
+<!--
 ## 포트폴리오 Repository
 ### 개인프로젝트
 * 포토플리오 01 (Pan's PM 동아리 웹사이트) : https://github.com/byeolee1221/pans-pm-refactoring
@@ -34,6 +35,7 @@
 
 ### 미니프로젝트
 * 랜덤문제 순위정하기 : https://github.com/byeolee1221/randomQuiz
+-->
 
 <!--
 **byeolee1221/byeolee1221** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
