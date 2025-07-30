@@ -23,6 +23,9 @@
 ![](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white)
 ![](https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logo=Drizzle&logoColor=black)
 
+### 한번 둘러보세요!
+* 오늘의 지식 Q : https://www.knowledge-today.co.kr
+
 <!--
 ## 포트폴리오 Repository
 ### 개인프로젝트
