@@ -25,7 +25,6 @@
 
 ### 한번 둘러보세요!
 * 오늘의 지식 Q : https://www.knowledge-today.co.kr
-* 행운의 숫자 만들기 : https://www.lucky-number.kr/
 
 <!--
 ## 포트폴리오 Repository
